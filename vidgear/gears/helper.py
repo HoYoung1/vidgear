@@ -31,6 +31,7 @@ import logging.config
 #logging formatter
 logging.config.dictConfig({
 	'version': 1,
+	'disable_existing_loggers': False,
 	'formatters': {
 		'colored': {
 			'()': 'colorlog.ColoredFormatter',
